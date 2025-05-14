@@ -1,0 +1,23 @@
+name: flutter_application_1
+description: A Flutter application to monitor fish tank health.
+
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjusted for current Flutter versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1 # Check for the latest version on pub.dev
+  cupertino_icons: ^1.0.6 # Check for the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Check for the latest version
+
+flutter:
+  uses-material-design: true
